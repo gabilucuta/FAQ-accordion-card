@@ -1,3 +1,21 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+I really need some help to understand how this can be done without hard coding like I did..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Frontend Mentor - FAQ accordion card
 
 ![Design preview for the FAQ accordion card coding challenge](./design/desktop-preview.jpg)
