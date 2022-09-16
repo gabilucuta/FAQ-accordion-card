@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Kumbh Sans',sans-serif;
+}
+
+
+body
+{
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(hsl(273 ,75% , 66%), hsl(240,73%, 65%));
+}
+
+h1
+{
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.wrapper
+{
+    background: white;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    justify-content: center;
+    align-content: center;
+    border-radius: 30px;
+    height: 509px;
+    width: 967px;
+    grid-gap: 6rem;
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -45000% 70%;
+    overflow: hidden;
+}
+
+.imageWrapper
+{
+    position: relative;
+    right: 70px;
+    top: 20px;
+}
+
+.imgae
+{
+    position: absolute;
+    top: 210px;
+    left: 140px;
+}
+
+.question
+{
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(171, 154, 154);
+    margin-right: 100px;
+    
+}
+
+.question h3
+{
+    font-weight: 400;
+}
+
+.question  img 
+{
+    display: flex;
+    justify-content: left;
+}
+
+
+
+.answer
+{
+    display: none;
+}
+
+button 
+{
+    background: none;
+color: inherit;
+border: none;
+padding: 0;
+font: inherit;
+cursor: pointer;
+outline: inherit;
+
+}
+
+.active h3 
+{
+    width: 100%;
+    font-weight: 700;
+}
+
+.active img
+{
+    transform: rotate(190deg);
+    transition: 1s;
+}
+
